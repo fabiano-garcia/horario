@@ -12,7 +12,7 @@
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Nome</label>
-              <input type="text" class="form-control" placeholder="Digite o Nome da Turma" required="required" name="nome">
+              <input type="text" class="form-control" placeholder="Digite seu Nome" required="required" name="nome">
             </div>
             <div class="col">
               <label for="exampleInputPassword1">Quantidade de Horários</label>
@@ -22,7 +22,7 @@
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Turno</label>
-              <input type="text" class="form-control" placeholder="Digite o Turno" name="turno">
+              <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
             </div>
             <div class="table">
               <label for="exampleInputPassword1"></label>
@@ -63,7 +63,7 @@
                         <td><?php echo $array['nome']; ?></td>
                         <td><?php echo $array['qnt_horarios']; ?></td>
                         <td><?php echo $array['turno']; ?></td>
-                        <td><button type="submit" class="btn btn-danger" name="cod_turma" value=<?php echo $array['cod_turma']; ?> >Excluir</button></td>
+                        <td><button type="submit" class="btn btn-danger" name="cod_turma" value=<?php echo $array['cod_turma']; ?>>Excluir</button></td>
                       </form>
                     </tr>
                   <?php
@@ -93,7 +93,7 @@
                       <td><?php echo $array['nome']; ?></td>
                       <td><?php echo $array['qnt_horarios']; ?></td>
                       <td><?php echo $array['turno']; ?></td>   
-                      <td><button type="submit" class="btn btn-danger" name="cod_turma" value=<?php echo $array['cod_turma']; ?> >Excluir</button></td>
+                      <td><button type="submit" class="btn btn-danger" name="cod_turma" value=<?php echo $array['cod_turma']; ?>>Excluir</button></td>
                     </form>
                   </tr>
                 <?php
