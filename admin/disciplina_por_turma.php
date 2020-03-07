@@ -88,7 +88,7 @@
             if (mysqli_num_rows($resultado) == 0) {
           ?>
             <tr>
-              <td colspan="4" class="text-center"><?php echo "Nenhuma turma cadastrada."; ?></td>
+              <td colspan="4" class="text-center"><?php echo "Nenhuma Disciplina cadastrada."; ?></td>
             </tr>
           <?php
             } else {
